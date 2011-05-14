@@ -11,8 +11,8 @@ function getDocumentation(name)
     -- log(name)
 	local data = fetchURL(getDocumentationUrl(name))
 
-    local contentTag = [[<div id='content'>]]
-    local footerTag = [[<div id='footer'>]]
+    local contentTag = [[<div id=['"]content['"]>]]
+    local footerTag = [[<div id=['"]footer['"]>]]
 
     local contentPos = data:find(contentTag);
     local footerPos = data:find(footerTag);
