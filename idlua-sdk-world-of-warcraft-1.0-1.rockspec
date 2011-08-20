@@ -1,8 +1,9 @@
 package = "idlua-sdk-world-of-warcraft"
-version = "1.0"
+version = "1.0-1"
 
 source = {
-    url = "https://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft/get/default.zip", 
+    url = "http://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft", 
+    vccs = "hg"
 }
 
 description = {
@@ -11,7 +12,7 @@ description = {
         Wprld of Warcraft API definitions for the IntelliJ IDE Lua Support Plugin.
     ]],
     license = "MIT/X11",
-    homepage = "https://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft/overview", 
+    homepage = "http://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft/overview", 
     maintainer = "sylvanaar <aylvanaar@mindspring.com>"
 }
 
@@ -20,6 +21,7 @@ dependencies = {
 }
 
 build = {
+   type = "builtin",
    modules = {
       idlua_api_wow = {
           "wow-api.doclua",
