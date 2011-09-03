@@ -2,8 +2,7 @@ package = "idlua-sdk-world-of-warcraft"
 version = "1.0-1"
 
 source = {
-    url = "http://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft", 
-    vccs = "hg"
+    url = "hg://https://bitbucket.org/sylvanaar2/idlua-sdk-world-of-warcraft", 
 }
 
 description = {
