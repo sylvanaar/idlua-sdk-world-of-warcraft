@@ -7,7 +7,7 @@ end
 
 out:write("\n\n--[[ WOW FUNCTION SIGNATURES ]]\nSIGNATURES = {\n\n")
 
-TEMPLATE = [==========[%s = [=[%s]=],
+TEMPLATE = [==========[["%s"] = [=[%s]=],
 ]==========]
 
 TEMPLATE2 =[==========[function %s() end
